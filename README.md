@@ -209,6 +209,3 @@ Through this project, I gained practical experience in:
 
 
 
-## 📜 License
-
-This project is developed for educational and internship purposes under the **SkillCraft Technology Web Development Internship**.
