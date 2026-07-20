@@ -1,175 +1,214 @@
-# TaskFlow Pro - Advanced To-Do Web App
-
-A modern and fully responsive To-Do Web Application developed as part of my Web Development Internship. This project helps users efficiently manage daily tasks through an intuitive interface, smart task organization, progress tracking, and productivity-enhancing features built using HTML, CSS, and JavaScript.
+# SCT_WD_4
+**NexTask**
+A modern and fully responsive **Task Management Web Application** developed as part of my **Web Development Internship at SkillCraft Technology**. This project enables users to efficiently organize daily activities through an intuitive dashboard, smart task management, progress tracking, and productivity-enhancing features built using **HTML, CSS, and JavaScript**.
 
 ## 🚀 Live Demo
 
 View the live project here:
 
-**Live Demo:** https://suhaas-2006.github.io/SCT_WD_4/
+**Live Demo:** https://divyasreenidamanuri.github.io/SCT_WD_4/
 
 ## 📂 Repository
 
 Explore the source code:
 
-**GitHub Repository:** https://github.com/Suhaas-2006/SCT_WD_4/
+**GitHub Repository:** https://github.com/divyasreenidamanuri/SCT_WD_4
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-* Add, Edit, and Delete Tasks
+* Modern Dashboard Interface
+* Add New Tasks
+* Edit Existing Tasks
+* Delete Tasks
 * Mark Tasks as Completed
 * Task Priority Levels (High, Medium, Low)
-* Task Categories (Study, Work, Personal, Fitness)
-* Due Date & Time Management
-* Search Tasks Instantly
+* Smart Task Categories
+* Due Date & Time Scheduling
+* Instant Task Search
 * Task Statistics Dashboard
-* Progress Tracking Bar
+* Overall Progress Tracking
 * Active / Completed Task Filters
-* Drag & Drop Task Reordering
-* Local Storage Persistence
-* Toast Notifications
-* Due Soon Alerts
-* Overdue Task Detection
-* Confetti Animation on Task Completion
+* Responsive Sidebar Navigation
 * Dark Mode / Light Mode Toggle
-* Glassmorphism UI Design
-* Fully Responsive Layout
+* Local Storage Data Persistence
+* Interactive Progress Bar
+* Beautiful Glassmorphism UI
+* Animated Cards & Hover Effects
+* Empty State Illustration
+* Mobile Responsive Design
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 * HTML5
 * CSS3
 * JavaScript (ES6)
 * Local Storage API
-* SortableJS
-* Canvas Confetti
 * Font Awesome Icons
+* Google Fonts
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
-TaskFlow-Pro/
+SCT_WD_4/
 │
 ├── index.html
 ├── style.css
 ├── script.js
-└── assets/
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── screenshots/
+└── README.md
 ```
 
 ---
 
-## 🎯 Core Functionalities
+# 🎯 Core Functionalities
 
-### 📝 Task Management
+## 📝 Task Management
 
 Users can:
 
 * Create New Tasks
-* Edit Existing Tasks
+* Update Existing Tasks
 * Delete Tasks
 * Mark Tasks as Completed
-* Assign Due Dates
+* Manage Pending Tasks
 
-### 🚦 Priority Management
+---
 
-Tasks can be categorized based on priority:
+## 🚦 Priority Management
+
+Assign priority levels to tasks:
 
 * 🔴 High Priority
 * 🟡 Medium Priority
 * 🟢 Low Priority
 
-### 📂 Task Categories
+---
 
-Organize tasks into:
+## 📂 Task Categories
+
+Organize tasks into different categories:
 
 * 📚 Study
 * 💼 Work
 * 🏠 Personal
 * 🏋 Fitness
+* 🛒 Shopping
 
-### 📊 Dashboard Statistics
+---
 
-Displays:
+## 📅 Due Date Management
 
-* Total Tasks
-* Completed Tasks
-* Pending Tasks
+Manage tasks efficiently by:
 
-### 📈 Progress Tracking
+* Setting Due Date
+* Setting Due Time
+* Viewing Upcoming Tasks
 
-Visual progress bar showing overall completion percentage.
+---
 
-### 🔍 Search & Filtering
+## 📊 Dashboard Analytics
+
+The dashboard displays:
+
+* 📋 Total Tasks
+* ⏳ Pending Tasks
+* ✅ Completed Tasks
+* 📈 Completion Percentage
+
+---
+
+## 📈 Progress Tracking
+
+Track your productivity through:
+
+* Dynamic Progress Bar
+* Completion Percentage
+* Real-Time Statistics Updates
+
+---
+
+## 🔍 Search & Filters
 
 Users can:
 
-* Search Tasks
+* Search Tasks Instantly
 * View All Tasks
 * View Active Tasks
 * View Completed Tasks
 
-### 🎉 Smart Notifications
+---
 
-Includes:
+## 🌙 Theme Customization
 
-* Task Added Notifications
-* Task Updated Notifications
-* Task Deleted Notifications
-* Completion Celebrations with Confetti
+Supports:
+
+* Dark Theme
+* Light Theme
+* Smooth Theme Switching
 
 ---
 
-## 💡 Learning Outcomes
+## 💾 Data Persistence
 
-Through this project, I gained hands-on experience in:
+* Stores tasks using Local Storage
+* Automatically loads saved tasks after refreshing
+* No backend required
+
+---
+
+# 💡 Learning Outcomes
+
+Through this project, I gained practical experience in:
 
 * DOM Manipulation
+* JavaScript ES6
 * Event Handling
-* Local Storage Management
+* Local Storage API
+* CRUD Operations
 * Responsive Web Design
-* JavaScript ES6 Concepts
-* UI/UX Design Principles
+* Dashboard UI Design
+* Theme Switching
 * State Management
-* Drag & Drop Functionality
-* Third-Party Library Integration
-* Frontend Development Best Practices
+* Dynamic Rendering
+* Frontend Performance Optimization
+* User Experience (UI/UX) Design
 
 ---
 
-
----
-
-## 🌟 Future Enhancements
+# 🌟 Future Enhancements
 
 * User Authentication
-* Cloud-Based Task Synchronization
-* Recurring Tasks
-* Calendar View Integration
-* Task Reminders & Notifications
+* Cloud Database Integration
+* Calendar View
+* Drag & Drop Task Sorting
+* Task Reminder Notifications
+* Email Notifications
 * Pomodoro Productivity Timer
-* Task Notes & Attachments
+* Recurring Tasks
+* Notes & File Attachments
 * Export Tasks as PDF
-* Team Collaboration Features
-* Backend Integration with Database
+* Team Collaboration
+* Progressive Web App (PWA) Support
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Sai Suhaas Nadakudity**
+**Nidamanuri Divya Sree**
 
-Web Development Intern
-
-**GitHub:** https://github.com/Suhaas-2006/SCT_WD_4/
-
-**LinkedIn:** https://www.linkedin.com/in/sai-suhaas-nadakudity-a15992339/
-
----
+**Web Development Intern – SkillCraft Technology**
 
 
+
+## 📜 License
+
+This project is developed for educational and internship purposes under the **SkillCraft Technology Web Development Internship**.
