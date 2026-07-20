@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>NexTask</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <i class="fas fa-check-circle"></i>
+
+            <h2>NexTask</h2>
+
+        </div>
+
+        <ul>
+
+            <li class="active">
+                <i class="fas fa-home"></i>
+                Dashboard
+            </li>
+
+            <li>
+                <i class="fas fa-list-check"></i>
+                All Tasks
+            </li>
+
+            <li>
+                <i class="fas fa-star"></i>
+                Important
+            </li>
+
+            <li>
+                <i class="fas fa-calendar-day"></i>
+                Today
+            </li>
+
+            <li>
+                <i class="fas fa-calendar-week"></i>
+                This Week
+            </li>
+
+            <li>
+                <i class="fas fa-check-double"></i>
+                Completed
+            </li>
+
+        </ul>
+
+        <div class="sidebar-bottom">
+
+            <h4>Categories</h4>
+
+            <p>📚 Study</p>
+
+            <p>💼 Work</p>
+
+            <p>🏠 Personal</p>
+
+            <p>🏋 Fitness</p>
+
+            <p>🛒 Shopping</p>
+
+        </div>
+
+    </aside>
+
+    <!-- Main -->
+
+    <main class="main-content">
+
+        <!-- Header -->
+
+        <header class="topbar">
+
+            <div>
+
+                <h1>Welcome Back 👋</h1>
+
+                <p id="todayDate"></p>
+
+            </div>
+
+            <div class="top-actions">
+
+                <button id="themeToggle">
+
+                    <i class="fas fa-moon"></i>
+
+                </button>
+
+            </div>
+
+        </header>
+
+        <!-- Statistics -->
+
+        <section class="stats">
+
+            <div class="card">
+
+                <i class="fas fa-list"></i>
+
+                <h2 id="totalTasks">0</h2>
+
+                <p>Total Tasks</p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-hourglass-half"></i>
+
+                <h2 id="pendingTasks">0</h2>
+
+                <p>Pending</p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-check-circle"></i>
+
+                <h2 id="completedTasks">0</h2>
+
+                <p>Completed</p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-chart-line"></i>
+
+                <h2 id="progressPercent">0%</h2>
+
+                <p>Progress</p>
+
+            </div>
+
+        </section>
+
+        <!-- Progress -->
+
+        <div class="progress-section">
+
+            <div class="progress-container">
+
+                <div class="progress-bar"
+                    id="progressBar"></div>
+
+            </div>
+
+            <p id="progressText">
+
+                Keep Going 🚀
+
+            </p>
+
+        </div>
+
+        <!-- Add Task -->
+
+        <section class="task-form">
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a task...">
+
+            <input
+                type="datetime-local"
+                id="taskDate">
+
+            <select id="priority">
+
+                <option value="High">
+                    🔴 High
+                </option>
+
+                <option value="Medium">
+                    🟡 Medium
+                </option>
+
+                <option value="Low">
+                    🟢 Low
+                </option>
+
+            </select>
+
+            <select id="category">
+
+                <option>📚 Study</option>
+
+                <option>💼 Work</option>
+
+                <option>🏠 Personal</option>
+
+                <option>🏋 Fitness</option>
+
+                <option>🛒 Shopping</option>
+
+            </select>
+
+            <button id="addBtn">
+
+                <i class="fas fa-plus"></i>
+
+            </button>
+
+        </section>
+
+        <!-- Search -->
+
+        <div class="search-area">
+
+            <input
+                type="text"
+                id="searchTask"
+                placeholder="Search tasks...">
+
+        </div>
+
+        <!-- Filters -->
+
+        <div class="filters">
+
+            <button onclick="filterTasks('all')">
+
+                All
+
+            </button>
+
+            <button onclick="filterTasks('active')">
+
+                Active
+
+            </button>
+
+            <button onclick="filterTasks('completed')">
+
+                Completed
+
+            </button>
+
+        </div>
+
+        <!-- Task List -->
+
+        <section class="task-board">
+
+            <h2>
+
+                <i class="fas fa-thumbtack"></i>
+
+                Your Tasks
+
+            </h2>
+
+            <ul id="taskList"></ul>
+
+        </section>
+
+    </main>
+
+</div>
+
+<!-- Toast -->
+
+<div id="toast"></div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
