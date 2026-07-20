@@ -1,5 +1,5 @@
 
-**#NexTask**
+# NexTask 
 A modern and fully responsive **Task Management Web Application** developed as part of my **Web Development Internship at SkillCraft Technology**. This project enables users to efficiently organize daily activities through an intuitive dashboard, smart task management, progress tracking, and productivity-enhancing features built using **HTML, CSS, and JavaScript**.
 
 ## 🚀 Live Demo
